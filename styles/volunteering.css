@@ -10,7 +10,7 @@
     color: lightgrey;
     margin-left: 90px;
 }*/
- /*DBB1BC*/
+/*DBB1BC*/
 /*D3D5D4*/
 .nav-item {
     padding: 0 1em;
@@ -36,21 +36,21 @@ span {
     color: lightgrey;
 }
 
-/* styles for the Carousel */
-.carousel-caption {
-    background-color: rgba(117, 129, 126, 0.75);
+/*.navbar-brand input[type=text] {
+    float: right;
+    padding: 6px;
+    border: none;
+    margin-top: 8px;
+    margin-right: 16px;
+    font-size: 17px;
 }
 
-/* styles for the Heading */
-.col-sm-4  {
-    position: relative;
-    left: 30em;
-    top: 1em;
+.navbar-brand input {
+    border: 1px solid #ccc;
+}*/
 
-}
 
 /* styles for the Bootstrap Cards */
-
 
 .footer {
     position: fixed;

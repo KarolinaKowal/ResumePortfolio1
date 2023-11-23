@@ -10,7 +10,7 @@
     color: lightgrey;
     margin-left: 90px;
 }*/
- /*DBB1BC*/
+/*DBB1BC*/
 /*D3D5D4*/
 .nav-item {
     padding: 0 1em;
@@ -36,22 +36,57 @@ span {
     color: lightgrey;
 }
 
-/* styles for the Carousel */
-.carousel-caption {
-    background-color: rgba(117, 129, 126, 0.75);
-}
-
 /* styles for the Heading */
-.col-sm-4  {
+h2 {
+    color: blue;
     position: relative;
-    left: 30em;
-    top: 1em;
+    top: 0.3em;
+    left: 20em;
+    border-radius: 20px;
+    border: 2px solid black;
+    width: 300px;
+    background-color: white;
+}
+
+/* styles for the Body */
+body {
+    background-color: #edf2fb;
+}
+
+/* styles for the article */
+article {
+    border-radius: 20px;
+    border: 2px solid black;
+    width: 1520px;
+    height: 150px;
+    background-color: #ffccd5;
 
 }
 
-/* styles for the Bootstrap Cards */
+article img {
+    position: absolute;
+    left: 1.5em;
+    top: 13em;
+}
 
+article p {
+    position: absolute;
+    top: 13em;
+    left: 38em;
+}
+/* styles for the aside */
 
+aside b {
+    position: absolute;
+    bottom: 29.5em;
+    left: 18em;
+}
+
+aside em {
+    position: absolute;
+    bottom: 28em;
+    left: 18em;
+}
 .footer {
     position: fixed;
     left: 0;
