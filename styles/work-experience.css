@@ -57,36 +57,101 @@ body {
 article {
     border-radius: 20px;
     border: 2px solid black;
-    width: 1520px;
-    height: 150px;
-    background-color: #ffccd5;
-
+    width: 95em;
+    height: 10em;
+    background-color: #ffe5ec;
+    margin-top: 3em;
 }
 
 article img {
     position: absolute;
     left: 1.5em;
     top: 13em;
+    margin-top: 3em;
 }
 
 article p {
     position: absolute;
     top: 13em;
     left: 38em;
+    margin-top: 2.5em;
 }
+
 /* styles for the aside */
 
 aside b {
     position: absolute;
+    top: 16.5em;
     bottom: 29.5em;
     left: 18em;
 }
 
 aside em {
     position: absolute;
+    top: 18em;
     bottom: 28em;
     left: 18em;
+
 }
+
+/* styles for the valley-pictures class */
+.valley-pictures {
+margin-top: 3em;
+}
+
+/* styles for the valley-pictures headings */
+.valley-pictures h3 {
+    text-align: center;
+}
+
+/* styles for the valley-pictures pictures */
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 25%;
+}
+
+/* styles for the valley-pictures p elements */
+.valley-pictures p {
+    text-align: center;
+}
+
+
+
+/* styles for the aside inside the valley-pictures class */
+/*.valley-pictures .picture-1 {
+    border-radius: 25px;
+    border: 2px solid black;
+    float: right;
+    width: 250em;
+    height: 400em;
+    background-color: white;
+    position: relative;
+    right: 5em;
+}
+
+.valley-pictures .picture-2  {
+    border-radius: 25px;
+    border: 2px solid black;
+    float: left;
+    width: 850px;
+    height: 400px;
+    background-color: #ffe5ec;
+    position: relative;
+    right: 2em;
+}
+
+.valley-pictures .picture-3 {
+    border-radius: 25px;
+    border: 2px solid black;
+    float: right;
+    width: 850px;
+    height: 350px;
+    background-color: white;
+}
+*/
 .footer {
     position: fixed;
     left: 0;
