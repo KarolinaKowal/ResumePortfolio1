@@ -1,3 +1,4 @@
+<!-- DEVELOPER: Karolina Kowal, IS117-003, Fall 2023 -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -29,6 +30,9 @@
                 <ul class="navbar-nav">
                     <!-- Links -->
                     <li class="nav-item">
+                        <p id="static-item">Resume Portfolio</p>
+                    </li>
+                    <li class="nav-item">
                         <a class="nav-link" href="index.html">Home</a>
                     </li>
                     <li class="nav-item">
@@ -41,6 +45,7 @@
                             Projects
                         </a>
                         <div class="dropdown-menu">
+                            <a class="dropdown-item" href="projects.html">Personal</a>
                             <a class="dropdown-item" href="research.html">Research</a>
                             <a class="dropdown-item" href="volunteering.html">Volunteering</a>
                         </div>
@@ -48,12 +53,231 @@
                     <li class="nav-item">
                         <a class="nav-link" href="contact.html">Contact</a>
                     </li>
-
-
                 </ul>
             </div>
         </nav>
     </div>
+
+    <!-- Heading -->
+    <div class="col-sm-4 text-center">
+        <h2>Research Projects</h2>
+    </div>
+
+    <section class="terrestrial-physics-research">
+    <h3>Institute for Space Weather Sciences
+        Center for Solar-Terrestrial Research
+        <br>
+        <i>An Analysis of the Geolocation
+        Algorithms Used by Ionospheric Radars</i>
+    </h3>
+    <p>The (Super Dual Auroral Radar Network) SuperDARN is a system of High Frequency (HF) (3-30 MHz) radars that
+        detect where plasma density irregularities exist in a region of the Earth’s upper-atmosphere called the
+        ionosphere. MIT (magnetosphere-ionosphere-thermosphere) coupling process can generate large scale plasma
+        density irregularities that can impact how radio frequency radio waves propagate through the ionosphere and
+        are a space weather hazard. These irregularities can be detected using SuperDARN HF radars.</p>
+        <p>An ongoing and unresolved problem in using HF radar for detecting ionospheric irregularities is one of
+            geolocation. It is difficult to accurately determine where radar echoes originate from using existing
+            geolocation algorithms. We used PHaRLAP, a numerical ray tracing software package, to predict where the
+            aspect angle condition is met in the F-region (between 150 and 1000 kilometers altitude) of the ionosphere.
+            The aspect angle condition is where the radar wave vector is close to orthogonal with the local geomagnetic
+            field. According to the current theory, HF radar echoes are generated in regions where the aspect angle
+            condition is satisfied.</p>
+        <p>In this research project, we modeled the power flux profile on an individual SuperDARN radar located at
+            Saskatoon, Canada, and determined where the aspect angle condition is met for that given radar. We then
+            compared the modeled predicted to real radar echo data from the Saskatoon radar and found good agreement.
+            One interesting result from the modeling exercise was that it predicts that echoes detected by the
+            Saskatoon may originate from altitudes that are much lower than what is generally accepted in current
+            literature. In the future, more analysis will be done to reinforce these results.
+        </p>
+    <img src="/images/SuperDARN.jpg" alt="SuperDARN Radar, located in Saskatoon, Saskatchewan, Canada">
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vestibulum nisl ut ligula sodales vestibulum.
+        Vestibulum sed est non est viverra mattis. Maecenas non faucibus sapien, eget tempor augue. Maecenas in lorem
+        non nunc malesuada sollicitudin sed vitae ex. Nulla vitae justo ac risus hendrerit porttitor eu et mi.
+        Morbi dapibus ligula lorem, ut auctor tellus varius sit amet. Vestibulum vel mattis purus, nec
+        tristique lectus.</p>
+    <img src="/images/Research-Physics-Plot-1.png" alt="Plotting the coordinates where the Aspect-Angle Condition is met
+in the ionosphere">
+    <p>Etiam aliquam, metus faucibus sagittis sollicitudin, turpis diam blandit ligula, a egestas dui sem non arcu.
+        Vivamus mattis molestie consequat. Morbi feugiat quis lorem quis dignissim. Aliquam ac posuere enim. Sed sit
+        amet elementum nunc, ac scelerisque quam. Class aptent taciti sociosqu ad litora torquent per conubia nostra,
+        per inceptos himenaeos. Duis nec leo sollicitudin, porttitor augue vel, viverra lacus. Vestibulum at ex
+        varius mi venenatis tempor. Sed tincidunt eros id metus porttitor consectetur. Aliquam pellentesque
+        dapibus ex sed vulputate. Nullam nibh augue, vulputate sit amet bibendum vitae, auctor sit amet quam.
+        Vestibulum eu viverra felis. Mauris laoreet, dolor facilisis pretium commodo, quam quam convallis felis,
+        vel ultrices enim mauris in risus. Fusce condimentum magna nec nulla suscipit euismod. Phasellus tellus
+        nibh, ultrices at consequat vel, rutrum vitae augue. Nulla facilisi.</p>
+    <p>Integer ut volutpat nulla, id gravida augue. Integer ultrices nunc eu neque ullamcorper cursus quis non est.
+        Etiam tortor elit, ullamcorper ac pharetra ut, dictum sit amet leo. Sed suscipit nulla odio, ut rhoncus lorem
+        lacinia ac. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+        Mauris eu commodo augue. Duis vel pellentesque lorem. Suspendisse id est quis neque pretium congue vel eu odio.
+        Quisque nec dolor lectus.</p>
+    <img src="/images/Research-Physics-Plot-2.png" alt="">
+    <p>Interdum et malesuada fames ac ante ipsum primis in faucibus. Sed tempus non augue consequat tincidunt. Mauris
+        sodales convallis velit, sit amet imperdiet dui aliquam quis. Praesent suscipit nulla ante, in congue magna
+        hendrerit at. Donec pulvinar ipsum et leo condimentum, id vestibulum urna tincidunt. Proin bibendum malesuada
+        purus a commodo. Sed tincidunt magna euismod, venenatis massa nec, venenatis eros. Mauris accumsan velit sit
+        amet mauris imperdiet, ut eleifend elit fermentum. Phasellus faucibus tincidunt ultrices.</p>
+    <p>Suspendisse lacinia leo quam, eu tempus orci pellentesque id. Integer imperdiet libero non ex lacinia, ut
+        pretium nulla consequat. Fusce eget tristique enim. Quisque in dolor faucibus, luctus sem sit amet, fringilla
+        ligula. Vestibulum consequat odio nec eleifend dapibus. Nullam euismod quis massa sit amet dictum.
+        Duis enim enim, molestie eu tellus sed, placerat semper nulla. Ut nec quam urna. Vivamus laoreet bibendum
+        arcu ut iaculis. Pellentesque cursus varius massa, eu luctus mi molestie vehicula. Nunc dolor eros,
+        consequat vitae sapien suscipit, fringilla ullamcorper urna.</p>
+    <img src="/images/Research-Physics-Plot-3.png" alt="">
+    <p>Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Sed gravida odio tellus,
+        quis facilisis lectus mattis a. Vivamus venenatis pulvinar tellus, in porta felis blandit vel. Proin quis augue
+        ut libero blandit vestibulum sit amet sit amet ligula. Phasellus ut feugiat tortor. Etiam posuere gravida
+        ultricies. Sed condimentum faucibus sapien a finibus. Aenean venenatis urna ut mi faucibus mollis.</p>
+    <p>Praesent a leo id risus sollicitudin bibendum nec eget ante. Donec nibh libero, sagittis sed condimentum et,
+        pretium et lectus. Curabitur sit amet auctor velit. Pellentesque blandit sapien vitae nisl pretium mollis.
+        Fusce sed metus ut ipsum sodales ultrices. Etiam et tortor non arcu pretium mollis. Donec maximus nisl sit amet
+        neque consequat, in blandit magna dictum. Vestibulum semper, metus quis euismod maximus, velit velit malesuada
+        purus, sed ultricies nisl nisl sit amet purus. Phasellus hendrerit enim neque, quis lobortis augue interdum in.
+        Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
+    <img src="/images/Research-Physics-Plot-4.png" alt="">
+    <p>Nunc consectetur diam a mi fermentum vestibulum. Maecenas placerat fringilla turpis. Ut suscipit nibh ut diam
+        pulvinar aliquam. Maecenas at aliquet ligula. In quis congue lectus, vel molestie est. Donec ultrices leo quis
+        nibh convallis lobortis. Proin dignissim odio in risus gravida ultrices. In hac habitasse platea dictumst.
+        Sed non posuere justo. Nulla non varius ante. Sed viverra mauris in quam ornare, vitae viverra elit ultrices.
+        Nullam id sem et turpis fermentum facilisis. Aliquam erat volutpat. Donec viverra dui ut imperdiet feugiat.</p>
+    <p>Nam varius tempus sem vitae tempus. Curabitur elit urna, viverra ut turpis eget, rutrum pellentesque sem.
+        Phasellus placerat vitae velit ac mollis. Nulla et erat erat. Vivamus vestibulum sapien dui. Aenean non
+        pharetra risus. Cras a est et magna bibendum vulputate. Integer ac gravida augue. Suspendisse id justo eget
+        felis condimentum pretium. Vivamus scelerisque vitae velit at volutpat. Vivamus sed arcu sit amet ex
+        commodo malesuada id et ligula. Maecenas elementum arcu sit amet magna sodales accumsan eget a risus.</p>
+    <p>Phasellus convallis consequat dolor ac tristique. Maecenas aliquet semper sagittis. Maecenas non lobortis erat,
+        vel tincidunt eros. Morbi aliquam orci sed augue aliquet molestie. Quisque lobortis tellus eu tortor gravida,
+        sodales convallis turpis hendrerit. Donec sapien metus, eleifend vitae felis non, lacinia ultrices lectus.
+        Morbi tristique non nisi nec pellentesque. Quisque congue blandit sem sit amet pharetra. Aenean at porta elit,
+        ut facilisis lacus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae;
+        Praesent arcu purus, viverra nec risus et, blandit sollicitudin urna. Sed sed dui est. Vivamus tempor
+        laoreet aliquet. Mauris ac euismod magna, ac hendrerit nibh. Etiam non felis a eros pharetra rutrum elementum
+        eget erat. Fusce elementum ipsum pretium varius suscipit.</p>
+    <p>Integer vel eleifend mi. Aliquam finibus id tellus sed molestie. Phasellus fermentum neque ut elit egestas,
+        ut molestie ligula sollicitudin. Vestibulum id condimentum mauris. Mauris imperdiet magna vel suscipit tempus.
+        Nunc hendrerit eget magna non cursus. Integer at risus arcu. Aliquam vitae venenatis diam. Etiam ut facilisis
+        erat, sit amet fringilla urna. Integer consectetur posuere velit, vel eleifend purus molestie eu. Proin
+        interdum eget sapien eu vehicula. In nunc lectus, fringilla et rutrum ut, tincidunt in dolor.
+        Curabitur mollis sem ut efficitur ultricies.</p>
+    </section>
+
+    <section class="biomathematical-research">
+    <h3>Department of Mathematical Biology
+        <br>
+        <i>Using Deep Hybrid Modeling to Determine
+        Treatment Strategies for COVID-19 Patients</i>
+    </h3>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ultricies, felis in bibendum hendrerit,
+        nunc ligula dignissim est, eu mattis orci libero iaculis massa. Quisque condimentum fringilla eros, in mattis
+        tortor. Sed dapibus convallis justo vel viverra. Fusce lobortis purus vitae diam aliquet gravida. Phasellus
+        vitae lectus lacus. Duis placerat turpis ac metus vestibulum, sit amet imperdiet eros vestibulum. Praesent
+        molestie cursus magna, in ultrices sapien malesuada quis. Nunc ac dictum libero. Duis auctor arcu turpis,
+        quis dictum tellus commodo eget. Morbi ultricies, lorem a laoreet auctor, ligula lorem porta lectus, id mattis
+        sem nisi nec nisl. Sed feugiat dignissim ultricies.</p>
+    <img src="/images/Research-Bio-Equations-1.png" alt="">
+    <p>Quisque volutpat pulvinar orci in imperdiet. Phasellus lacinia arcu in eros euismod, id interdum tortor
+        ullamcorper. Duis accumsan ex a arcu dignissim, eget mollis ex fringilla. Nulla varius lorem vitae sagittis
+        interdum. Fusce tincidunt rutrum aliquam. Phasellus vel leo congue, fringilla lacus a, volutpat arcu. Praesent
+        dignissim ac elit vel pellentesque. Phasellus lacinia eget elit eu eleifend. Praesent placerat varius nisi ut
+        placerat. Nunc sed neque vel orci vulputate ultrices in at metus. Aenean a mollis nunc. Vestibulum id nunc et
+        est dapibus tincidunt. Cras sit amet ipsum at lorem dictum ultricies quis ac erat. Etiam elementum sapien
+        ac suscipit tempus. Donec eleifend molestie sodales.</p>
+    <img src="/images/Research-Bio-Equations-2.png" alt="">
+    <p>Mauris neque lectus, dapibus ac consequat vel, eleifend ac sem. Morbi ornare lectus et venenatis vehicula. Nulla
+        libero lorem, sagittis sed metus eget, iaculis iaculis urna. Curabitur posuere faucibus lacus ut dictum.
+        In eget magna interdum, imperdiet orci ut, consectetur ligula. Pellentesque justo tellus, accumsan eget
+        condimentum et, sodales congue diam. Pellentesque tempor bibendum justo ut euismod.</p>
+    <img src="/images/Research-Bio-Equations-3.png" alt="">
+    <p>Phasellus nec diam in ligula auctor bibendum id ut nisl. Class aptent taciti sociosqu ad litora torquent per
+        conubia nostra, per inceptos himenaeos. Duis dui arcu, aliquam et malesuada a, pharetra id nulla. In
+        condimentum vitae felis non hendrerit. Praesent efficitur risus ac tempor maximus. Cras at felis turpis.
+        Proin mi ligula, aliquet sed lacinia id, molestie et nunc.</p>
+    <img src="/images/Research-Bio-Equations-4.png" alt="">
+    <p>Nullam ornare lorem erat. Maecenas ultricies ex vel aliquam porttitor. Ut ultricies mi nec elit dapibus
+        consequat. Praesent aliquet tortor et lacus rutrum ultricies eget eget sem. Donec hendrerit feugiat lobortis.
+        Vestibulum sagittis orci odio. Etiam consectetur, orci eu semper lobortis, enim felis viverra erat,
+        quis luctus ipsum ante eu purus. Etiam sodales massa ac lectus molestie faucibus. Praesent in velit neque.
+        Nullam ornare condimentum efficitur.</p>
+    <img src=/images/Research-Physics-Plot-1.png alt="">
+    <p>Cras augue lacus, consequat sit amet fermentum ut, bibendum eget nunc. Fusce placerat euismod nisi. Phasellus at
+        tempor lectus. Integer tempus diam a lorem fringilla bibendum. Ut pellentesque lectus at sodales hendrerit.
+        Duis mollis nunc vitae tellus rhoncus tempor. Etiam nunc nisl, maximus ac vestibulum ac, ultricies vitae quam.
+        Vestibulum non ex lectus. Nam feugiat rutrum ligula at cursus. Sed nec lectus nec turpis dignissim placerat.
+        Morbi consectetur nulla ac turpis feugiat, ac fringilla nunc tincidunt.</p>
+        <img src="/images/Research-Physics-Plot-2.png" alt="">
+        <p>Aenean venenatis urna a viverra sollicitudin. Aenean luctus quis libero id dapibus. Etiam tincidunt, neque
+            sed sollicitudin pulvinar, dui felis rutrum dui, at bibendum metus augue a purus. Sed nec sollicitudin
+            magna. Nulla commodo id dui vel tempus. Pellentesque eu tortor sed turpis volutpat hendrerit elementum et
+            eros. Etiam luctus metus sed tellus bibendum aliquet. Nunc eu commodo tortor. Aenean lorem tellus, blandit
+            ac ex sit amet, viverra luctus purus. Praesent bibendum odio at felis tempus ultricies. Donec malesuada
+            tincidunt nibh. In sapien lacus, laoreet vitae ligula eget, condimentum faucibus lorem. Mauris quis
+            fringilla sem. Donec faucibus dolor ac magna blandit, nec maximus ligula scelerisque. Nunc ultricies
+            volutpat ante eu laoreet.</p>
+        <img src="/images/Research-Bio-Plot-3.png" alt="">
+        <p>Aenean venenatis urna a viverra sollicitudin. Aenean luctus quis libero id dapibus. Etiam tincidunt, neque
+            sed sollicitudin pulvinar, dui felis rutrum dui, at bibendum metus augue a purus. Sed nec sollicitudin
+            magna. Nulla commodo id dui vel tempus. Pellentesque eu tortor sed turpis volutpat hendrerit elementum et
+            eros. Etiam luctus metus sed tellus bibendum aliquet. Nunc eu commodo tortor. Aenean lorem tellus, blandit
+            ac ex sit amet, viverra luctus purus. Praesent bibendum odio at felis tempus ultricies. Donec malesuada
+            tincidunt nibh. In sapien lacus, laoreet vitae ligula eget, condimentum faucibus lorem. Mauris quis
+            fringilla sem. Donec faucibus dolor ac magna blandit, nec maximus ligula scelerisque. Nunc ultricies
+            volutpat ante eu laoreet.</p>
+        <img src="/images/Research-Bio-Plot-4.png" alt="">
+        <p>Nullam luctus arcu sed elit convallis, volutpat facilisis risus efficitur. Integer ante sapien, interdum id
+            varius nec, vestibulum eu orci. Vivamus a malesuada magna, ac rutrum ante. Cras in dui consectetur, cursus
+            felis vitae, auctor tortor. Donec hendrerit, lacus nec sodales pharetra, ex velit varius ex, ac tempor
+            magna erat sed dolor. Ut venenatis diam ut eros sollicitudin, pulvinar rhoncus nisi placerat. Ut eget
+            egestas quam. Suspendisse posuere velit vel nunc ultrices posuere.</p>
+        <img src="/images/Research-Bio-Plot-5.png" alt="">
+        <p>In efficitur, neque et laoreet aliquam, nunc libero tincidunt elit, sagittis eleifend nisi sem nec nisi.
+            Donec interdum lorem elit, vel hendrerit sapien tincidunt sed. Nunc ut elit sed sapien tincidunt maximus.
+            Duis est elit, rhoncus in augue id, aliquam ultricies lacus. Etiam non euismod odio. Sed lorem ante,
+            pharetra vitae enim nec, tempor laoreet odio. Nullam et porttitor nisi. Suspendisse faucibus nibh sed ante
+            vulputate bibendum. Morbi ac tincidunt libero, at ultrices dui. Mauris fringilla metus non porta
+            scelerisque. Aliquam erat volutpat. Nullam ut lectus id felis luctus tincidunt.</p>
+        <img src="/images/Research-Bio-Plot-6.png" alt="">
+        <p>Sed accumsan odio nunc, laoreet elementum magna blandit id. Aenean tempus neque feugiat libero aliquet
+            viverra. Phasellus aliquam risus non lorem dictum commodo. Duis porttitor at orci id suscipit. Donec
+            gravida vel nibh sit amet interdum. Vestibulum eget tempus est. Morbi tempus, ipsum non varius facilisis,
+            dui odio consequat ligula, vel rutrum nisi metus a nulla. Praesent commodo congue enim, vitae sagittis elit
+            gravida non. Pellentesque mollis eget leo non malesuada. In ex velit, venenatis aliquet rhoncus eget,
+            interdum in erat. Pellentesque luctus lectus et ex venenatis condimentum.</p>
+        <img src="/images/Research-Bio-ML.png" alt="">
+        <p>Cras enim arcu, lacinia sed tortor vitae, viverra facilisis nisl. Fusce accumsan pharetra purus et ornare.
+            Nunc facilisis nibh vehicula, vestibulum nisi sit amet, facilisis nunc. Ut feugiat eleifend massa, vel
+            rutrum est ultricies quis. Aliquam accumsan, ipsum vel lacinia fermentum, turpis odio blandit leo, sit amet
+            placerat mauris nisi ac ligula. Pellentesque maximus magna vel pellentesque interdum. Suspendisse ac egestas
+            ante, sit amet varius eros. Praesent eu nulla risus. Aenean dui nisl, maximus vel lectus ut, sagittis
+            hendrerit lacus. Fusce lorem libero, sagittis nec dignissim sit amet, gravida eu tortor. Morbi
+            sollicitudin tincidunt risus iaculis vulputate. Sed gravida dictum quam, sed placerat lorem hendrerit at.
+            In convallis id neque in aliquet. Fusce eget arcu et urna venenatis mattis.</p>
+        <img src="/images/Research-Bio-Plot-7.png" alt="">
+        <p>Duis nec feugiat dui, vitae feugiat mauris. Orci varius natoque penatibus et magnis dis parturient montes,
+            nascetur ridiculus mus. Nullam sed ex justo. Vivamus sollicitudin nunc justo, at elementum urna tristique a.
+            Mauris dignissim libero a nunc facilisis pulvinar. Aliquam dapibus congue nisi. Mauris commodo ipsum at
+            tincidunt ullamcorper. Mauris venenatis risus eget risus dignissim placerat. Etiam tincidunt magna
+            dignissim consectetur placerat.</p>
+        <img src="/images/Research-Bio-Plot-8.png" alt="">
+        <p>Maecenas finibus sollicitudin ipsum, nec faucibus dolor. Curabitur pretium lacus sit amet massa malesuada,
+            in ultricies velit semper. In dictum, dolor in cursus aliquam, magna turpis consequat risus, ac scelerisque
+            sapien orci quis neque. Phasellus volutpat, nibh fringilla pharetra sollicitudin, ante est interdum turpis,
+            ut facilisis sapien odio ac turpis. Maecenas fermentum consequat tellus ac fringilla. Pellentesque habitant
+            morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum ac elementum ante.
+            Nulla viverra urna sit amet arcu maximus tristique eu vel diam. Praesent ligula risus, ultricies sed ipsum
+            vitae, sodales bibendum risus. Praesent convallis blandit ornare. Etiam iaculis in purus sit amet
+            convallis. Ut dapibus sollicitudin lacus, eget malesuada quam gravida vel.</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut a nunc eu dolor venenatis tempor eu non nunc.
+            Aliquam posuere fermentum lacus, et commodo eros congue vitae. Lorem ipsum dolor sit amet, consectetur
+            adipiscing elit. In fringilla, felis eu ultrices elementum, neque sem laoreet tortor, aliquet efficitur
+            erat tellus quis dui. Phasellus semper nulla eu justo lobortis elementum. Aenean gravida quam et nunc
+            ultrices rutrum. Aliquam volutpat bibendum augue. Sed neque lorem, pulvinar sit amet orci ac, ornare
+            ullamcorper elit. Integer viverra a orci id elementum. Morbi pellentesque pellentesque ex, et bibendum
+            turpis maximus ac. Vivamus venenatis nulla tortor, nec finibus ex finibus et. Integer efficitur augue
+            eu elit gravida faucibus. In eget elit id nisl finibus tincidunt ac eget sem. Donec auctor gravida
+            egestas.</p>
+
+    </section>
+
     <footer class="footer page-footer font-small ">
         <div class="container">
             <div class="row">

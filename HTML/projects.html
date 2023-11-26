@@ -1,3 +1,4 @@
+<!-- DEVELOPER: Karolina Kowal, IS117-003, Fall 2023 -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -29,6 +30,9 @@
                 <ul class="navbar-nav">
                     <!-- Links -->
                     <li class="nav-item">
+                        <p id="static-item">Resume Portfolio</p>
+                    </li>
+                    <li class="nav-item">
                         <a class="nav-link" href="index.html">Home</a>
                     </li>
                     <li class="nav-item">
@@ -41,6 +45,7 @@
                             Projects
                         </a>
                         <div class="dropdown-menu">
+                            <a class="dropdown-item" href="projects.html">Personal</a>
                             <a class="dropdown-item" href="research.html">Research</a>
                             <a class="dropdown-item" href="volunteering.html">Volunteering</a>
                         </div>
@@ -48,12 +53,281 @@
                     <li class="nav-item">
                         <a class="nav-link" href="contact.html">Contact</a>
                     </li>
-
-
                 </ul>
             </div>
         </nav>
     </div>
+
+    <!-- Heading -->
+    <div class="col-sm-4 text-center">
+        <h2>Personal Projects</h2>
+    </div>
+
+    <!--template
+<section class="">
+        <h3></h3>
+        <p></p>
+        <img src="" alt="">
+        <p></p>
+        <p></p>
+        <img src="" alt="">
+        <p></p>
+        <p></p>
+        <img src="" alt="">
+        <p></p>
+        <p></p>
+        <img src="" alt="">
+        <p></p>
+        <p></p>
+        <img src="" alt="">
+        <p></p>
+        <img src="" alt="">
+        <p></p>
+        <p></p>
+        <p></p>
+    </section>
++
+
+    -->
+
+    <section class="database-design">
+        <h3>Database Design: Renting A Car Project</h3>
+        <p>My group and I created a database for a hypothetical car rental company to track operations, such as rental car inventories,
+        rental contracts, and  billing. We created the Entity-Relationship (ER) Diagram to demonstrate the relationships
+        between entities and classify the types of relationships between those entities. We created the Diagram Schema to determine
+        if there are any entities that are dependent on another entity, and to figure out the primary and foreign keys for the actual database creation
+            in Oracle SQL Developer. After figuring out these details, we began writing SQL code to create our RentACar database.
+        We created the tables, primary key and foreign keys for each table, demonstrated each relationship between entities and tables,
+        and then populated each table with data. We updated and deleted data from the table as needed. Our database was ready
+        for testing and querying.</p>
+        <img src="/images/ER-Diagram.png" alt="Database Entity-Relationship Diagram">
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur id congue leo, non sodales sapien.
+            Pellentesque massa purus, ultrices eu massa sed, lobortis sagittis ipsum. Donec ac urna dui. Quisque sit
+            amet elit nec nisi fringilla faucibus. Praesent in metus iaculis, sodales lectus quis, dignissim nisi. Sed
+            tincidunt varius nisl in ultricies. Nulla turpis sapien, tempor ut congue ut, euismod vitae ante. In et
+            erat tincidunt, pellentesque ipsum eget, tincidunt arcu. Nulla iaculis enim eu urna vestibulum rutrum.
+            Nulla et felis sed velit egestas sollicitudin. Aenean blandit massa sed scelerisque consectetur.
+            In et luctus dui, imperdiet lacinia eros. Pellentesque vel feugiat lorem.</p>
+        <p>Praesent non dignissim justo. Nullam hendrerit diam quis semper ornare. Nullam consequat nisl quis libero
+            egestas eleifend. Mauris vitae lorem euismod, facilisis ante ut, mattis elit. Interdum et malesuada fames
+            ac ante ipsum primis in faucibus. Maecenas pharetra nisl ac risus placerat iaculis. Integer pharetra est
+            id elementum aliquet. Vivamus tellus sem, mattis vel hendrerit in, condimentum ac sapien. Donec dui lorem,
+            laoreet in sodales vitae, lacinia vel nulla. Mauris et hendrerit nisi, fermentum vulputate ligula. Nullam
+            interdum sapien tortor, quis ultrices nisl congue in. Orci varius natoque penatibus et magnis dis parturient
+            montes, nascetur ridiculus mus. Nulla sodales, risus sed porta convallis, ipsum ante vehicula nibh, ac
+            tincidunt augue erat quis risus. Aliquam a leo tortor. Nulla ac orci aliquam, laoreet ipsum vel, ultricies
+            purus. Nulla id quam ut libero vestibulum rhoncus nec eu felis.</p>
+
+        <img src="/images/database-schema.png" alt="Database Schema Diagram">
+        <p>Nunc cursus porttitor massa, faucibus accumsan sem porttitor at. Maecenas et mauris porta, sagittis felis
+            eget, porttitor arcu. Cras tincidunt odio ligula, id molestie nulla efficitur eget. Nulla facilisi.
+            Etiam id nunc eget eros convallis faucibus. Donec vehicula fermentum purus, nec vehicula leo dignissim nec.
+            Nunc rhoncus luctus tellus, non commodo eros fermentum lacinia. Interdum et malesuada fames ac ante ipsum
+            primis in faucibus. Vestibulum varius tincidunt rutrum. Mauris vitae tristique sapien. Proin dapibus
+            massa a feugiat mollis. Aliquam tempus nisi ac erat pellentesque bibendum. Phasellus egestas orci lorem.</p>
+        <p>Fusce ac viverra nisl, at aliquet libero. Pellentesque nisl mauris, euismod vel euismod ac, pellentesque a
+            leo. Etiam id tempor enim, in dictum justo. Nulla sollicitudin, augue nec elementum eleifend, ex sem mollis
+            neque, vel egestas diam justo ut sem. Proin dapibus, purus at scelerisque scelerisque, augue orci ultrices
+            ligula, id mollis dui mi sit amet ligula. Nullam non imperdiet tellus, eu ultricies diam.
+            Vestibulum faucibus elit a elit consectetur pulvinar. Quisque vehicula diam ut aliquet cursus.
+            Pellentesque velit augue, cursus dapibus erat eu, porta consectetur ex. Maecenas ornare risus ac arcu
+            euismod dictum. In hac habitasse platea dictumst. Maecenas ac metus id erat pretium hendrerit. Donec
+            faucibus sollicitudin quam sed rutrum. Praesent eget quam eu ligula volutpat tincidunt. Phasellus elementum
+            ultrices tortor eu aliquet.</p>
+        <img src="/images/sql-code-1.png" alt="Creating the Car table in SQL Developer">
+        <p>Phasellus non nibh ultrices, venenatis elit at, euismod est. Vivamus id lacinia nisl. Maecenas eu ex in
+            lorem aliquet scelerisque nec quis odio. Sed luctus porttitor erat, nec interdum metus pharetra eu.
+            Sed volutpat mattis massa nec tempus. Integer sed lectus nec massa aliquam congue. Duis imperdiet
+            consequat nulla, ac dignissim enim commodo vel. Pellentesque suscipit magna vulputate ligula elementum
+            tempus. Praesent sed mollis felis. Donec massa ipsum, lacinia id mi eget, volutpat maximus eros.
+            Suspendisse tempus dignissim dolor eget facilisis.</p>
+        <img src="/images/database-car-population.png" alt="Populating the Car table in the database">
+        <p>Praesent aliquam elit in nunc ultricies tincidunt. Nullam risus risus, ultricies at metus et, egestas semper
+            ex. Proin pellentesque venenatis est. Integer sed pharetra augue, sit amet semper magna. Sed auctor arcu
+            ac nulla commodo elementum. Quisque leo ligula, auctor vel justo quis, accumsan pulvinar erat.
+            Suspendisse potenti.</p>
+        <p>Nulla vulputate tincidunt elit eu tristique. Etiam erat eros, pharetra et nibh id, elementum rhoncus nisi.
+            Praesent pretium enim eget aliquam viverra. Etiam nulla nibh, lacinia eget iaculis non, euismod a purus.
+            Nullam sagittis leo eu libero aliquet, a sagittis magna pretium. Aliquam vestibulum molestie lacus nec
+            ultricies. Proin dictum quis dui eget pretium. Integer mattis consequat hendrerit. Quisque euismod
+            consectetur lorem nec sodales. Morbi venenatis ultricies tempus.</p>
+        <img src="/images/database-car-table.png" alt="The Car table in the database">
+        <p>Quisque elementum ullamcorper tincidunt. Integer vitae lacus in turpis vehicula auctor. Pellentesque vitae
+            nulla consequat, malesuada est vitae, euismod nisi. Curabitur pulvinar dolor nunc, fringilla posuere velit
+            dignissim molestie. Praesent pretium odio felis, id fringilla arcu ornare ac. Donec magna ante, consequat
+            nec tempor vel, volutpat in magna. Integer ut odio in enim mattis efficitur a eget tellus. Cras suscipit
+            augue congue nisi maximus cursus. Phasellus tristique maximus porttitor. In at pellentesque enim. Proin
+            et mauris nec eros lobortis bibendum.</p>
+        <p>Pellentesque maximus libero id quam luctus semper. Aliquam id ipsum eu felis semper ullamcorper quis vehicula
+            felis. Suspendisse vitae ornare metus. Aenean nec dictum lorem. Nullam a mauris nulla. Morbi interdum ante
+            at arcu pretium, luctus hendrerit diam rutrum. Duis posuere eget diam eget tristique. Morbi fermentum
+            sapien scelerisque lorem fermentum ullamcorper. Cras rutrum, eros et hendrerit dapibus, urna nulla posuere
+            orci, a sollicitudin tortor quam placerat ipsum. Morbi rhoncus cursus consequat. Sed placerat dolor eu
+            diam lacinia pellentesque. Sed nec euismod odio. Nullam lacus nisl, accumsan venenatis leo a, consectetur
+            laoreet ipsum. Integer id blandit metus. Sed luctus elementum orci nec tincidunt.</p>
+        <img src="/images/database-update-car.png" alt="Updating the Car table in the database">
+        <p>Donec faucibus quam lacinia, imperdiet elit vel, egestas nisi. Proin pharetra hendrerit velit, sed congue
+            mauris suscipit ac. Suspendisse dignissim nec tellus vel egestas. Sed cursus consectetur purus. Aliquam
+            interdum fermentum ante pretium tempus. Etiam vitae nisl consectetur, mollis nisi at, volutpat est. Integer
+            fringilla dolor nec lacus tempor vulputate. Class aptent taciti sociosqu ad litora torquent per conubia
+            nostra, per inceptos himenaeos. Nulla odio augue, molestie eu scelerisque in, congue sed nisi. In at nibh
+            quis leo tempor ullamcorper suscipit non ex. Curabitur id turpis metus. Nullam egestas, quam non aliquet
+            fermentum, nunc magna commodo risus, id ultrices dui tortor vel nulla. Nulla pulvinar justo a accumsan
+            facilisis.</p>
+        <img src="/images/database-car-query.png" alt="Querying the database">
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis volutpat molestie lectus, nec laoreet urna.
+            Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Vestibulum
+            tortor dolor, tempus eget scelerisque id, dapibus sit amet arcu. Aenean sit amet leo in eros porttitor
+            consequat at ut velit. Maecenas eget tempor augue. Integer volutpat purus a convallis faucibus. In hac
+            habitasse platea dictumst. Fusce sed mi et ante efficitur dignissim. Duis porttitor quam vitae gravida
+            pretium. Nam tempor diam lacus, sit amet bibendum nibh consectetur at. Ut in urna ultrices, molestie dui
+            non, vehicula est. Nam aliquet quam orci, et rhoncus nulla euismod vel. Nunc urna lorem, feugiat quis leo a,
+            convallis cursus elit. Suspendisse convallis enim at lectus vulputate, in commodo diam egestas.</p>
+        <p>Quisque consectetur ex nibh, eget tempor mauris lobortis id. Nullam fermentum orci nec elit porttitor, vel
+            aliquet lorem dapibus. Nam ornare, lectus in imperdiet blandit, mauris justo tristique magna, eu egestas dui
+            ipsum nec enim. In accumsan mauris id sodales finibus. Nullam a sollicitudin nibh. Nulla ut erat at arcu
+            bibendum finibus. Sed accumsan eleifend ipsum, a mattis odio. Nullam laoreet sit amet ligula a viverra.
+            Suspendisse sollicitudin arcu ut ante tincidunt viverra. Sed quis consequat dolor. Fusce congue turpis eros,
+            ut semper neque posuere at. Sed eu tortor at neque cursus tempor. Aenean lorem dui, egestas quis ipsum id,
+            euismod venenatis urna. Mauris posuere, augue eu ultrices sollicitudin, nunc diam blandit ligula,
+            eget sodales dui risus non lorem. Donec augue arcu, semper a suscipit vel, scelerisque in magna.</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis vel odio fringilla urna sagittis placerat ut
+            sit amet nibh. Phasellus nec mollis leo. Donec quis consectetur dolor, ac pharetra velit. Suspendisse
+            tincidunt pretium vestibulum. In a libero nulla. Nullam at eros eget justo commodo pellentesque ac
+            in nunc. Morbi suscipit aliquam pulvinar. Cras hendrerit nibh ut malesuada mollis.</p>
+    </section>
+
+    <section class="data-science">
+        <h3>Data Science Prediction Model</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer finibus mi ac urna suscipit, at semper
+            massa vestibulum. Phasellus ut pellentesque enim, sed ultricies orci. Suspendisse ut eros laoreet tortor
+            viverra varius. Proin ac tincidunt nulla, quis mattis mauris. Vivamus et nisl vestibulum, efficitur
+            justo ut, porttitor neque. Donec in lectus faucibus, mollis mi in, ultricies quam. Nam metus ex,
+            porttitor quis urna non, euismod mollis ante. Vivamus sollicitudin orci turpis, non placerat diam luctus
+            auctor. Nulla pellentesque lectus metus, mattis pretium turpis gravida sed. Curabitur diam ex, tristique in
+            vestibulum at, porttitor vitae neque. Fusce pharetra porttitor nisi vitae bibendum. Fusce vel ultrices dui,
+            quis venenatis mi. Phasellus sem leo, ullamcorper non euismod et, convallis sed ante. Donec massa purus,
+            pharetra cursus dictum ut, aliquet ut ipsum. Sed ut ex non nisi faucibus blandit.</p>
+        <img src="/images/big_heatmap.png" alt="big heatmap that represents the correlation between 0 and 1 between
+        variables of a large dataset">
+        <p>Morbi finibus sollicitudin risus efficitur vestibulum. Nam id lacus leo. Donec porttitor massa orci, id
+            imperdiet leo pellentesque finibus. Aenean id posuere velit, imperdiet dignissim ipsum. Aenean ornare enim
+            quis maximus mollis. Cras quis dignissim erat, accumsan ultrices augue. Sed interdum urna sed diam
+            efficitur, ac mattis orci suscipit. Praesent commodo mi leo, sodales semper orci vehicula et. Nulla
+            volutpat sagittis tellus, sed porttitor nunc posuere eu. Cras quis laoreet mi. Etiam auctor euismod purus
+            ac mattis. Morbi venenatis id ex at ornare.</p>
+        <p>Mauris laoreet posuere odio, non aliquam nunc tincidunt in. Etiam efficitur iaculis maximus. Nam interdum
+            mollis lectus, id commodo neque aliquam eu. Quisque rutrum vehicula vehicula. Fusce eu venenatis massa,
+            ac euismod nisl. Mauris viverra vulputate sem eu molestie. Morbi non justo tempus, ultrices sapien eget,
+            porta turpis. Suspendisse potenti. Integer finibus laoreet lectus, vel sollicitudin ipsum.</p>
+        <img src="/images/data-science-stats.png" alt="the dataset consists of variables we chose for our prediction model">
+        <p>Interdum et malesuada fames ac ante ipsum primis in faucibus. Quisque vitae lacinia justo. Nullam non semper
+            elit, ac efficitur odio. Nulla viverra sodales accumsan. Curabitur ornare ex mauris, eu bibendum ipsum
+            iaculis nec. Curabitur at nulla ac quam tempus dictum. Suspendisse potenti. Praesent sed semper nunc,
+            at luctus lectus.</p>
+        <p>Phasellus iaculis urna sit amet risus lobortis, ac vestibulum elit blandit. Praesent dui mauris, iaculis eu
+            tristique vitae, sodales vitae ligula. Quisque lobortis mauris a nunc dictum interdum non in sapien. Nam
+            aliquet laoreet erat ac tempor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi eget ligula
+            non lorem vestibulum dapibus. Vestibulum ac ante id erat lacinia auctor in eget est. Fusce pharetra leo sed
+            neque venenatis rutrum vel at tellus. Vivamus maximus, dui non vulputate pellentesque, urna sapien convallis
+            velit, ac eleifend sem mi id justo. Etiam rhoncus lacinia ipsum, ut tempus lacus porta sit amet. In justo
+            turpis, dapibus eget convallis a, mattis quis velit. Mauris est magna, luctus at metus laoreet, sodales
+            euismod orci. Nunc sodales velit a tincidunt dignissim. Integer lacinia commodo nisi, sed elementum nunc.
+            Aenean maximus sem lectus, vitae mollis tortor fermentum tristique.</p>
+        <img src="/images/small_heatmap.png" alt="small heatmap that represents the correlation between 0 and 1
+        between the variables that we chose for our model">
+        <p>Nam massa sapien, imperdiet fringilla tempus a, cursus eu purus. Nam sit amet risus odio. Aenean dapibus,
+            sapien quis rhoncus placerat, sapien erat volutpat est, at mattis neque dui vitae purus. Nulla sit amet sem
+            dui. Nam suscipit risus id tortor mattis, a volutpat orci pulvinar. Pellentesque posuere euismod semper.
+            Ut auctor laoreet risus, in congue arcu blandit at. Donec aliquam dui vel mollis vestibulum. Nunc volutpat
+            semper sollicitudin. Phasellus at feugiat erat, ut aliquam lectus. Phasellus vehicula eros tortor, in
+            congue tellus cursus vitae. Vivamus tortor ligula, venenatis ac sapien eu, tincidunt congue quam.</p>
+        <p>Donec accumsan, sem non blandit consequat, augue lorem sollicitudin massa, sed placerat tortor sapien a arcu.
+            Sed ac fringilla ex. Donec non nunc turpis. Sed varius purus vel est porta, sed tempus tellus vehicula.
+            Vestibulum magna justo, ultricies at dignissim vitae, venenatis vel sapien. Nam porttitor eu est ac laoreet.
+            Pellentesque at egestas risus. Aliquam iaculis vitae justo ac tempor. Donec tristique ultrices eros, varius
+            rutrum velit laoreet ac. Duis nisl leo, tincidunt nec sem et, rutrum eleifend est.</p>
+        <img src="/images/data_distribution.png" alt="bar graphs of each variable that we chose for our prediction model">
+        <p>Quisque laoreet magna tellus, eget cursus massa vulputate id. Duis at elit nulla. Ut id nisi commodo ipsum
+            feugiat aliquam. Vivamus pretium laoreet suscipit. Aenean varius, massa ac porta interdum, risus tellus
+            tempus tortor, ac iaculis nisi quam at enim. Aliquam erat volutpat. Vestibulum tortor felis, pellentesque
+            quis pretium et, blandit a risus.</p>
+        <p>Nam et dui eu ligula eleifend ultrices. Fusce egestas, purus vel varius pretium, justo est suscipit dolor,
+            at pulvinar mi nulla in dolor. Praesent sed luctus magna, vel dictum turpis. Aenean iaculis eros risus,
+            id ornare mauris maximus eu. Curabitur ornare mi sit amet luctus congue. In quis justo ex. Proin congue at
+            quam ut suscipit. Sed eget viverra mi.</p>
+        <img src="/images/data-science-model-comparison.png" alt="comparison between two prediction models">
+        <p>Phasellus fringilla, risus in sodales auctor, lectus odio finibus tellus, in condimentum risus mi at lorem.
+            Sed viverra ligula enim, viverra suscipit tortor molestie in. Nunc at fringilla massa. Nullam sodales, arcu
+            ac ultrices pellentesque, ligula elit finibus libero, non elementum leo erat commodo neque. Ut aliquet
+            imperdiet justo at dignissim. Vivamus in pharetra nunc, tempor sodales arcu. Fusce ultrices in ante at
+            pharetra. Suspendisse vitae nunc a tellus iaculis venenatis vel a urna. Pellentesque habitant morbi
+            tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum eget iaculis lectus.
+            Praesent ullamcorper ultrices eros, ac tempor ipsum porta nec. Quisque bibendum consequat molestie.
+            Pellentesque sed dignissim est, at luctus nisl.</p>
+        <p>Nulla pulvinar fermentum dui, pharetra accumsan diam placerat vitae. Pellentesque malesuada ac lectus ut
+            pharetra. Etiam in elit at diam tristique finibus. Aliquam vitae ullamcorper ipsum.
+            Aliquam erat volutpat. Aenean rhoncus justo ac tellus iaculis egestas. Nulla ut accumsan velit,
+            sit amet volutpat massa.</p>
+    </section>
+
+    <section class="study-spots">
+    <h3>Designing the User Experience: Study Spots Application</h3>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere nisl vitae mi gravida vehicula vitae
+        vitae arcu. Maecenas bibendum malesuada egestas. Fusce sagittis porttitor sem. Phasellus sit amet elit sapien.
+        Integer quis est eget elit dictum scelerisque sed ac ante. Nam vitae euismod lorem. Etiam vehicula ac ante vel
+        ultrices. Quisque id viverra felis. Sed sodales, sapien a sollicitudin aliquam, massa tortor maximus dui,
+        sit amet vehicula orci tellus a odio. Integer ut diam eros.</p>
+    <img src="/images/StudySpots-Problem-Statement.png" alt="">
+    <p>Nunc dapibus turpis est, vitae molestie est imperdiet lacinia. Donec pulvinar nisl non euismod tincidunt.
+        Vestibulum aliquam, leo eget tempus rhoncus, leo quam consectetur quam, ut efficitur ex odio pulvinar nibh.
+        Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Integer mi nibh,
+        feugiat eget tempor tempus, ornare eu eros. Sed ante dolor, blandit vel maximus eget, placerat blandit neque.
+        Integer congue diam sed libero ullamcorper, condimentum gravida eros suscipit. Cras fermentum aliquet fermentum.
+        Aenean in justo lectus. Aliquam luctus lobortis aliquet. Morbi in lorem elit. In maximus nunc quis tempor
+        aliquam. Donec a nunc aliquam, accumsan lectus ut, fermentum risus.</p>
+    <p>Morbi in purus cursus libero feugiat tempus. Vestibulum non purus accumsan dolor vulputate dignissim non eu enim.
+        Proin convallis malesuada magna at aliquam. Suspendisse eget ante nisl. Praesent molestie facilisis pharetra.
+        Ut ullamcorper nulla augue, mattis commodo diam maximus et. Sed accumsan eu libero sit amet facilisis.
+        In sagittis ut arcu quis bibendum. Curabitur sit amet sem sit amet lorem mattis condimentum facilisis a neque.
+        Nullam bibendum iaculis elit, et aliquet mauris volutpat non. Mauris ullamcorper porttitor leo vitae vestibulum.
+        Phasellus et leo aliquam, bibendum orci a, dignissim elit. Maecenas quis justo egestas, ornare diam sit amet,
+        egestas metus. Maecenas massa tellus, luctus in urna ut, scelerisque molestie nisl. Vestibulum non ex velit.
+        Fusce lorem lacus, varius a odio at, tempor lobortis dui.</p>
+    <img src="/images/StudySpots-Solution.png" alt="">
+    <p>Vestibulum tempus convallis urna in hendrerit. Ut lobortis laoreet finibus. Etiam euismod dolor in lacus ornare,
+        vitae congue nulla dignissim. Suspendisse molestie vitae magna eget tempus. Nunc vel felis feugiat, ultrices
+        urna ut, consequat mi. Integer id eros in tortor consectetur venenatis a vel urna. Etiam varius dui lorem, eget
+        rutrum nulla consequat ac. Morbi consequat leo nec pretium accumsan. Orci varius natoque penatibus et magnis
+        dis parturient montes, nascetur ridiculus mus. Pellentesque faucibus nunc eu dolor feugiat fringilla.</p>
+    <p>Nulla et feugiat dolor, vel placerat justo. In elit dui, hendrerit in pellentesque eu, vehicula quis lorem.
+        Morbi varius quam mauris, in venenatis ante sodales non. Vivamus nec facilisis tellus, vitae mattis arcu.
+        Nunc et elementum neque. Etiam quis porta purus. Cras hendrerit magna consequat, elementum ipsum nec,
+        luctus nibh. Etiam vitae erat sed metus auctor pellentesque. Proin dolor dui, ullamcorper ut dapibus posuere,
+        dignissim non tellus.</p>
+    <img src="/images/StudySpots-Paper-Prototype.png" alt="">
+    <p>Suspendisse nec lorem risus. Nullam laoreet laoreet felis id hendrerit. Quisque cursus libero vitae velit
+        sollicitudin, sed pretium enim sollicitudin. Vivamus ut placerat dui. Maecenas vestibulum ipsum dui,
+        eget varius turpis semper in. Curabitur vulputate ultrices nunc, a auctor tellus posuere non. Etiam fermentum
+        ut lectus non porttitor. Phasellus nec enim egestas magna mollis bibendum vel at dolor. Fusce iaculis dapibus
+        enim vitae consequat.</p>
+    <p>Nunc finibus neque eu est scelerisque rutrum nec sit amet neque. Suspendisse finibus risus nec condimentum
+        accumsan. Curabitur vestibulum mauris a blandit tincidunt. Etiam pulvinar, nisi ac faucibus egestas, leo nibh
+        facilisis neque, at eleifend leo lectus sit amet nibh. Fusce ac velit facilisis eros commodo sagittis ac vitae
+        nunc. Quisque mollis finibus diam ac bibendum. Curabitur imperdiet sem nec erat pellentesque efficitur.
+        Proin id suscipit lorem, quis venenatis mi. Praesent et mauris eu quam rutrum condimentum. In sit amet diam
+        varius, semper dolor ac, semper lacus. Nulla sit amet tellus id diam ultricies consequat. Vestibulum molestie,
+        nisi vitae ultrices sodales, nulla nulla gravida est, at scelerisque nisi lectus a nulla.</p>
+    <h4>Digital Prototype</h4>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam lacinia ligula eleifend ullamcorper commodo.
+            Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Integer malesuada
+            gravida dui vitae porta. Mauris dignissim fringilla varius. Cras sodales sollicitudin sagittis. Aenean
+            porttitor felis id mauris aliquam imperdiet. Nam vel neque magna. Aliquam vel leo eu turpis vehicula mollis.
+            Proin ac neque gravida, fermentum erat sit amet, dapibus ligula.</p>
+        <button type="" class="btn btn-primary">Digital Prototype</button>
+    </section>
+
+
     <footer class="footer page-footer font-small ">
         <div class="container">
             <div class="row">

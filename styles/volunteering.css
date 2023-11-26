@@ -1,3 +1,5 @@
+/* DEVELOPER: Karolina Kowal, IS117-003, Fall 2023 */
+
 /* styles for the Navbar */
 .navbar-nav {
     margin-left: 62%;
@@ -36,19 +38,22 @@ span {
     color: lightgrey;
 }
 
-/*.navbar-brand input[type=text] {
-    float: right;
-    padding: 6px;
-    border: none;
-    margin-top: 8px;
-    margin-right: 16px;
-    font-size: 17px;
+/* styles for the Heading */
+h2 {
+    color: blue;
+    position: relative;
+    top: 0.3em;
+    left: 20em;
+    border-radius: 20px;
+    border: 2px solid black;
+    width: 300px;
+    background-color: white;
 }
 
-.navbar-brand input {
-    border: 1px solid #ccc;
-}*/
-
+/* styles for the Body */
+body {
+    background-color: #edf2fb;
+}
 
 /* styles for the Bootstrap Cards */
 

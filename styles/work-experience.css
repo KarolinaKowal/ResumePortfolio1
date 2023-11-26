@@ -1,3 +1,5 @@
+/* DEVELOPER: Karolina Kowal, IS117-003, Fall 2023 */
+
 /* styles for the Navbar */
 .navbar-nav {
     margin-left: 62%;
@@ -97,6 +99,27 @@ aside em {
 /* styles for the valley-pictures class */
 .valley-pictures {
 margin-top: 3em;
+}
+
+.valley-pictures .picture-1 p {
+    width: 50%;
+    position: relative;
+    top: 0.5em;
+    left: 25%;
+}
+
+.valley-pictures .picture-2 p {
+    width: 50%;
+    position: relative;
+    top: 0.5em;
+    left: 25%;
+}
+
+.valley-pictures .picture-3 p {
+    width: 50%;
+    position: relative;
+    top: 0.5em;
+    left: 25%;
 }
 
 /* styles for the valley-pictures headings */

@@ -1,3 +1,5 @@
+/* DEVELOPER: Karolina Kowal, IS117-003, Fall 2023 */
+
 /* styles for the Navbar */
 .navbar-nav {
     margin-left: 62%;
@@ -47,6 +49,11 @@ span {
     left: 30em;
     top: 1em;
 
+}
+
+/* styles for the Body */
+body {
+    background-color: #edf2fb;
 }
 
 /* styles for the Bootstrap Cards */
