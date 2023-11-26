@@ -25,6 +25,7 @@
     top: 18px;
     font-family: "Lucida Calligraphy", sans-serif;
 }
+
 /* styles for Brand */
 .navbar-brand {
     background-color: #03045e;
@@ -46,7 +47,7 @@ h2 {
     left: 20em;
     border-radius: 20px;
     border: 2px solid black;
-    width: 300px;
+    width: 9em;
     background-color: white;
 }
 
@@ -185,4 +186,65 @@ margin-top: 3em;
     text-align: center;
     padding: 10px;
     font-size: 0.5rem;
+}
+
+/* Media Queries */
+@media only screen and (max-width: 707px) {
+    #static-item {
+        display: none;
+    }
+    h2 {
+        position: relative;
+        left: 5em;
+    }
+    article {
+        position: relative;
+        left: 1em;
+        height: 27em;
+        width: 28em;
+    }
+    article img {
+        position: absolute;
+        top: 0.1em;
+    }
+    article b {
+        position: absolute;
+        top: 2.6em;
+        text-align: center;
+    }
+    article em {
+        position: absolute;
+        top: 5.5em;
+        text-align: center;
+    }
+    article p {
+        position: absolute;
+        top: 8em;
+        left: 0.5em;
+    }
+
+    .valley-pictures .picture-1 p {
+        width: 75%;
+        position: relative;
+        left: 3.5em;
+    }
+    .valley-pictures .picture-1 img {
+        width: 75%;
+    }
+    .valley-pictures .picture-2 p {
+        width: 75%;
+        position: relative;
+        left: 3.5em;
+    }
+    .valley-pictures .picture-2 img {
+        width: 75%;
+    }
+    .valley-pictures .picture-3 p {
+        width: 75%;
+        position: relative;
+        left: 3.5em;
+    }
+    .valley-pictures .picture-3 img {
+        width: 75%;
+    }
 }
